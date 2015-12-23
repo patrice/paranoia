@@ -135,7 +135,7 @@ module Paranoia
 
   def paranoia_destroy_attributes
     {
-      paranoia_column => current_time_from_proper_timezone
+      paranoia_column => false
     }
   end
 
